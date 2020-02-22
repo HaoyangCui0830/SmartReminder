@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="15702" systemVersion="19D76" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="RemindItemEntity" representedClassName=".RemindItemEntity" syncable="YES">
+        <attribute name="essentialTask" optional="YES" attributeType="String"/>
+        <attribute name="itemDescription" optional="YES" attributeType="String"/>
+        <attribute name="mustBeFinished" optional="YES" attributeType="String"/>
+        <attribute name="preTask" optional="YES" attributeType="String"/>
+        <attribute name="priorityPoint" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="shouldBeFinished" optional="YES" attributeType="String"/>
+        <attribute name="startDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+    </entity>
+    <elements>
+        <element name="RemindItemEntity" positionX="-54" positionY="-9" width="128" height="148"/>
+    </elements>
+</model>

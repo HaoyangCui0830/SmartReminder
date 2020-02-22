@@ -1,0 +1,380 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA00508723D141E500799807 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00508623D141E500799807 /* AppDelegate.swift */; };
+		AA00508923D141E500799807 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00508823D141E500799807 /* SceneDelegate.swift */; };
+		AA00508E23D141E500799807 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA00508C23D141E500799807 /* Main.storyboard */; };
+		AA00509123D141E500799807 /* Smart_Reminder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AA00508F23D141E500799807 /* Smart_Reminder.xcdatamodeld */; };
+		AA00509323D141E700799807 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA00509223D141E700799807 /* Assets.xcassets */; };
+		AA00509623D141E700799807 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA00509423D141E700799807 /* LaunchScreen.storyboard */; };
+		AA00509E23D1424300799807 /* RemindItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00509D23D1424300799807 /* RemindItem.swift */; };
+		AA0050A023D1443400799807 /* RemindItemsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00509F23D1443400799807 /* RemindItemsTableViewController.swift */; };
+		AA0050A423D1459800799807 /* DetailedItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0050A323D1459800799807 /* DetailedItemViewController.swift */; };
+		AA0050A623D146E000799807 /* NewRemindItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0050A523D146E000799807 /* NewRemindItemViewController.swift */; };
+		AA0050A923D156EB00799807 /* RemindItemEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0050A723D156EB00799807 /* RemindItemEntity+CoreDataClass.swift */; };
+		AA0050AA23D156EB00799807 /* RemindItemEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0050A823D156EB00799807 /* RemindItemEntity+CoreDataProperties.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AA00508323D141E500799807 /* SmartReminder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartReminder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA00508623D141E500799807 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AA00508823D141E500799807 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AA00508D23D141E500799807 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA00509023D141E500799807 /* Smart_Reminder.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Smart_Reminder.xcdatamodel; sourceTree = "<group>"; };
+		AA00509223D141E700799807 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA00509523D141E700799807 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AA00509723D141E700799807 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA00509D23D1424300799807 /* RemindItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindItem.swift; sourceTree = "<group>"; };
+		AA00509F23D1443400799807 /* RemindItemsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindItemsTableViewController.swift; sourceTree = "<group>"; };
+		AA0050A323D1459800799807 /* DetailedItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedItemViewController.swift; sourceTree = "<group>"; };
+		AA0050A523D146E000799807 /* NewRemindItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewRemindItemViewController.swift; sourceTree = "<group>"; };
+		AA0050A723D156EB00799807 /* RemindItemEntity+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RemindItemEntity+CoreDataClass.swift"; sourceTree = "<group>"; };
+		AA0050A823D156EB00799807 /* RemindItemEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RemindItemEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA00508023D141E500799807 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA00507A23D141E500799807 = {
+			isa = PBXGroup;
+			children = (
+				AA00508523D141E500799807 /* Smart Reminder */,
+				AA00508423D141E500799807 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA00508423D141E500799807 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA00508323D141E500799807 /* SmartReminder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA00508523D141E500799807 /* Smart Reminder */ = {
+			isa = PBXGroup;
+			children = (
+				AA00508623D141E500799807 /* AppDelegate.swift */,
+				AA00508823D141E500799807 /* SceneDelegate.swift */,
+				AA00508C23D141E500799807 /* Main.storyboard */,
+				AA00509223D141E700799807 /* Assets.xcassets */,
+				AA00509423D141E700799807 /* LaunchScreen.storyboard */,
+				AA00509723D141E700799807 /* Info.plist */,
+				AA00508F23D141E500799807 /* Smart_Reminder.xcdatamodeld */,
+				AA0050A723D156EB00799807 /* RemindItemEntity+CoreDataClass.swift */,
+				AA0050A823D156EB00799807 /* RemindItemEntity+CoreDataProperties.swift */,
+				AA00509D23D1424300799807 /* RemindItem.swift */,
+				AA00509F23D1443400799807 /* RemindItemsTableViewController.swift */,
+				AA0050A323D1459800799807 /* DetailedItemViewController.swift */,
+				AA0050A523D146E000799807 /* NewRemindItemViewController.swift */,
+			);
+			path = "Smart Reminder";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA00508223D141E500799807 /* Smart Reminder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA00509A23D141E700799807 /* Build configuration list for PBXNativeTarget "Smart Reminder" */;
+			buildPhases = (
+				AA00507F23D141E500799807 /* Sources */,
+				AA00508023D141E500799807 /* Frameworks */,
+				AA00508123D141E500799807 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Smart Reminder";
+			productName = "Smart Reminder";
+			productReference = AA00508323D141E500799807 /* SmartReminder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA00507B23D141E500799807 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = haoyang;
+				TargetAttributes = {
+					AA00508223D141E500799807 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = AA00507E23D141E500799807 /* Build configuration list for PBXProject "Smart Reminder" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA00507A23D141E500799807;
+			productRefGroup = AA00508423D141E500799807 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA00508223D141E500799807 /* Smart Reminder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA00508123D141E500799807 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA00509623D141E700799807 /* LaunchScreen.storyboard in Resources */,
+				AA00509323D141E700799807 /* Assets.xcassets in Resources */,
+				AA00508E23D141E500799807 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA00507F23D141E500799807 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA00508723D141E500799807 /* AppDelegate.swift in Sources */,
+				AA0050AA23D156EB00799807 /* RemindItemEntity+CoreDataProperties.swift in Sources */,
+				AA0050A623D146E000799807 /* NewRemindItemViewController.swift in Sources */,
+				AA00508923D141E500799807 /* SceneDelegate.swift in Sources */,
+				AA00509E23D1424300799807 /* RemindItem.swift in Sources */,
+				AA0050A023D1443400799807 /* RemindItemsTableViewController.swift in Sources */,
+				AA0050A423D1459800799807 /* DetailedItemViewController.swift in Sources */,
+				AA0050A923D156EB00799807 /* RemindItemEntity+CoreDataClass.swift in Sources */,
+				AA00509123D141E500799807 /* Smart_Reminder.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AA00508C23D141E500799807 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA00508D23D141E500799807 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AA00509423D141E700799807 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA00509523D141E700799807 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA00509823D141E700799807 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA00509923D141E700799807 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA00509B23D141E700799807 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H8S5L7L93T;
+				INFOPLIST_FILE = "Smart Reminder/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Smart-Reminder";
+				PRODUCT_NAME = SmartReminder;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA00509C23D141E700799807 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H8S5L7L93T;
+				INFOPLIST_FILE = "Smart Reminder/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Smart-Reminder";
+				PRODUCT_NAME = SmartReminder;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA00507E23D141E500799807 /* Build configuration list for PBXProject "Smart Reminder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA00509823D141E700799807 /* Debug */,
+				AA00509923D141E700799807 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA00509A23D141E700799807 /* Build configuration list for PBXNativeTarget "Smart Reminder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA00509B23D141E700799807 /* Debug */,
+				AA00509C23D141E700799807 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AA00508F23D141E500799807 /* Smart_Reminder.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AA00509023D141E500799807 /* Smart_Reminder.xcdatamodel */,
+			);
+			currentVersion = AA00509023D141E500799807 /* Smart_Reminder.xcdatamodel */;
+			path = Smart_Reminder.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AA00507B23D141E500799807 /* Project object */;
+}
